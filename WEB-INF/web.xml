@@ -42,14 +42,14 @@
         <filter-name>OIDCAgentFilter</filter-name>
         <url-pattern>/site/*</url-pattern>
     </filter-mapping>
-<!--    <filter-mapping>-->
-<!--        <filter-name>OIDCAgentFilter</filter-name>-->
-<!--        <url-pattern>*.jsp</url-pattern>-->
-<!--    </filter-mapping>-->
-<!--    <filter-mapping>-->
-<!--        <filter-name>OIDCAgentFilter</filter-name>-->
-<!--        <url-pattern>*.html</url-pattern>-->
-<!--    </filter-mapping>-->
+   <filter-mapping>
+        <filter-name>OIDCAgentFilter</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>OIDCAgentFilter</filter-name>
+       <url-pattern>*.html</url-pattern>
+   </filter-mapping>
 
 <!--    <servlet>-->
 <!--        <servlet-name>AsgardeoCallbackServlet</servlet-name>-->
