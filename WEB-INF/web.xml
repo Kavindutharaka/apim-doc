@@ -37,11 +37,6 @@
         <filter-name>OIDCAgentFilter</filter-name>
         <url-pattern>/oauth2client</url-pattern>
     </filter-mapping>
-
-    <filter-mapping>
-        <filter-name>OIDCAgentFilter</filter-name>
-        <url-pattern>/site/*.*</url-pattern>
-    </filter-mapping>
    <filter-mapping>
         <filter-name>OIDCAgentFilter</filter-name>
         <url-pattern>*.jsp</url-pattern>
