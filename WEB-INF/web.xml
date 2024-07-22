@@ -40,7 +40,7 @@
 
     <filter-mapping>
         <filter-name>OIDCAgentFilter</filter-name>
-        <url-pattern>/site/*/</url-pattern>
+        <url-pattern>/site/*.*</url-pattern>
     </filter-mapping>
    <filter-mapping>
         <filter-name>OIDCAgentFilter</filter-name>
